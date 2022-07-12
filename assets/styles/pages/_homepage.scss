@@ -1,0 +1,40 @@
+.header {
+    background-color: $color-bg;
+
+    .title {
+        font-size: $heading-1-font-size;
+    }
+}
+
+.steps {
+    .card {
+        .card-body {
+            padding: 60px 20px;
+
+            .card-icon {
+                width: 80px;
+                height: 80px;
+            }
+
+            .card-title {
+                font-size: $heading-5-font-size;
+                font-weight: 600;
+                color: $color-black
+            }
+        }
+    }
+}
+
+.testimonials {
+    .quote-icon {
+        i {
+            font-size: $heading-2-font-size;
+            color: $color-blue;
+        }
+    }
+
+    .testimonial-name {
+        color: $color-black;
+        font-weight: 600;
+    }
+}

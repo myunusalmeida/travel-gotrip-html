@@ -1,0 +1,22 @@
+.packages {
+    background-color: $color-bg;
+
+    .package-item {
+        height: 500px;
+        border-radius: 10px;
+        background-size: cover;
+        text-decoration: none;
+
+        .content {
+            background: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(17px);
+            border-radius: 10px;
+            color: #FFFFFF;
+            width: 80%;
+
+            .package-item-location {
+                color: $color-grey;
+            }
+        }
+    }
+}
